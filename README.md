@@ -20,7 +20,6 @@ This project performs a basic survival analysis using both SAS on the Remission 
 
 - Used **Cox Proportional Hazards Model** in:
   - **SAS:** Using `PROC PHREG`
-  - **R:** Using `coxph()` from the `survival` package
 
 ---
 

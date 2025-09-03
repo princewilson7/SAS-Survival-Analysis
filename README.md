@@ -1,10 +1,10 @@
-# 🧪 Survival Analysis in SAS
+ Survival Analysis in SAS
 
 This project performs a basic survival analysis using both SAS on the Remission dataset. The goal is to model the time until remission using a **Cox Proportional Hazards model**.
 
 ---
 
-## 📂 Dataset
+ Dataset
 
 - **Name:** Remission.csv  
 - **Variables:**
@@ -16,14 +16,14 @@ This project performs a basic survival analysis using both SAS on the Remission 
 
 ---
 
-## 🔍 Method
+ Method
 
 - Used **Cox Proportional Hazards Model** in:
   - **SAS:** Using `PROC PHREG`
 
 ---
 
-## 📊 Results
+ Results
 
 - **LOGWBC** and **RX** were statistically significant predictors of survival at α = 0.05.
 - **SEX** was **not significant**.
@@ -35,7 +35,7 @@ This project performs a basic survival analysis using both SAS on the Remission 
 
 ---
 
-## 🧠 Interpretation
+ Interpretation
 
 - Patients with higher **log white blood cell count** had a significantly **higher risk of relapse**.
 - The **experimental treatment (RX = 1)** was also associated with an **increased hazard**, which may indicate:
@@ -45,8 +45,7 @@ This project performs a basic survival analysis using both SAS on the Remission 
 - The **model shows moderate discriminatory power** (C-index = 0.63), meaning it has some ability to differentiate between patients based on predicted risk.
 
 ---
-
-## 🚀 Tools Used
+ Tools Used
 
 - SAS OnDemand for Academics
 ---

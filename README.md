@@ -1,6 +1,6 @@
  Survival Analysis in SAS
 
-This project performs a basic survival analysis using both SAS on the Remission dataset. The goal is to model the time until remission using a **Cox Proportional Hazards model**.
+This project performs a basic survival analysis using SAS on the Remission dataset. The goal is to model the time until remission using a **Cox Proportional Hazards model**.
 
 ---
 
